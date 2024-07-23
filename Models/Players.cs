@@ -14,7 +14,7 @@ namespace MatchdayMadness2.Models
         public DateTime Age { get; set; }
        
         [ForeignKey("Teams")]
-        [DisplayName("Team")]
+        [DisplayName("Teams")]
         public int? Team_ID {  get; set; }
         public virtual Teams Teams { get; set; }
     }
